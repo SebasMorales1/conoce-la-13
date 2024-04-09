@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #F6F6F6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-onest);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1380px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}

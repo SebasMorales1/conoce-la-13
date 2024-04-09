@@ -1,0 +1,25 @@
+.header {
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-family: var(--font-permanent-maker);
+}
+
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  gap: 1em;
+}
+
+.nav__links {
+  color: #202020;
+}
