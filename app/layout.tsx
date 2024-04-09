@@ -28,7 +28,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${permanent_marker.variable} ${onest.variable}`}>
         <Header />
-        {children}
+        <div className="children">
+          {children}
+        </div>
       </body>
     </html>
   );

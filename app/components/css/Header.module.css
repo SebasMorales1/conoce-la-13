@@ -17,9 +17,17 @@
 
 .header__nav {
   display: flex;
-  gap: 1em;
+  gap: 0.8em;
 }
 
 .nav__links {
-  color: #202020;
+  color: #333;
+  text-shadow: 2px 1px 10px #22222285;
+  padding: 0.4em 0.8em;
+  transition: all 0.1s ease-in;
+}
+
+.nav__links:hover {
+  color: var(--primary-color);
+  outline: 1px solid var(--primary-color);
 }
