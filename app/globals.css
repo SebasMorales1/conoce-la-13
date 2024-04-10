@@ -1,6 +1,7 @@
 :root {
   --bg-color: #F6F6F6;
   --primary-color: #ff9671;
+  --main-color: #fa7000;
 }
 
 * {
@@ -16,6 +17,7 @@ html {
 body {
   background-color: var(--bg-color);
   overflow-x: hidden;
+  overflow-wrap: break-word;
 }
 
 .container {
@@ -26,6 +28,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .children {
