@@ -43,7 +43,7 @@
 .banner__btn:hover {
   box-shadow: 15px 10px 1px #fcb32d;
   border-color: #fcb32d;
-  color: #f5aa1f;
+  color: var(--main-color);
   background-color: #fcb42d1e;
 }
 
