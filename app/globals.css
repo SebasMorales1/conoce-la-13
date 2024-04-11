@@ -2,6 +2,8 @@
   --bg-color: #F6F6F6;
   --primary-color: #ff9671;
   --main-color: #fa7000;
+  --subtitle-color: #222222;
+  --paragraph-color: #3a3a3a;
 }
 
 * {
@@ -10,14 +12,10 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: var(--font-onest);
-}
-
 body {
   background-color: var(--bg-color);
   overflow-x: hidden;
-  overflow-wrap: break-word;
+  font-family: var(--font-onest);
 }
 
 .container {
@@ -32,6 +30,15 @@ a {
 
 button {
   cursor: pointer;
+}
+
+h2 {
+  font-family: var(--font-permanent-maker);
+  color: var(--subtitle-color);
+}
+
+p {
+  color: var(--paragraph-color);
 }
 
 .children {
