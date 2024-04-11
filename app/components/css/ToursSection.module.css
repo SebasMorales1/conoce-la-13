@@ -1,0 +1,29 @@
+.tours__content {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 1em;
+  align-items: center;
+}
+
+.tours__image { box-shadow: -4px 6px 1px var(--main-color); }
+
+.tours__info {
+  background-color: white;
+  /* width: 40%; */
+  padding: 3em 2em;
+  height: fit-content;
+  box-shadow: -2px 4px 3px #00000021;
+}
+
+.tours__subtitle {
+  font-size: 3em;
+  margin-bottom: 0.3em;
+}
+
+.tours__description {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 968px) {
+  .tours__content { grid-template-columns: 1fr; }
+}

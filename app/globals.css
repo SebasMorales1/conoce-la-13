@@ -1,5 +1,10 @@
 :root {
   --bg-color: #F6F6F6;
+  --primary-color: #ff9671;
+  --main-color: #fa7000;
+  --subtitle-color: #222222;
+  --paragraph-color: #3a3a3a;
+  --hover-main-color: #cf5f03;
 }
 
 * {
@@ -8,12 +13,10 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: var(--font-onest);
-}
-
 body {
   background-color: var(--bg-color);
+  overflow-x: hidden;
+  font-family: var(--font-onest);
 }
 
 .container {
@@ -24,4 +27,38 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-global {
+  font-family: var(--font-permanent-maker);
+  background-color: var(--main-color);
+  color: white;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+  transition: 0.2s;
+}
+
+.btn-global:hover { background-color: var(--hover-main-color); }
+
+h2 {
+  font-family: var(--font-permanent-maker);
+  color: var(--subtitle-color);
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+.children {
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
 }

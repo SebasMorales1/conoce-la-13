@@ -1,0 +1,43 @@
+.introduction__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  justify-content: space-between;
+}
+
+.introduction__info {
+  background-color: white;
+  transform: translateY(-20px);
+  padding: 3em 2em;
+  position: relative;
+  background-image: url("../../assets/graffiti-stroke.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: bottom right;
+  box-shadow: 2px 4px 3px #00000021;
+}
+
+.introduction__subtitle {
+  font-size: 3em;
+  margin: 0.3em;
+}
+
+.introduction__description {
+  width: 90%;
+  margin-bottom: 0.5em;
+}
+
+.introduction__video {
+  padding-top: 2em;
+}
+
+.video {
+  width: 90%;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .introduction__container { grid-template-columns: 1fr; }
+  .introduction__video { padding-top: 0; }
+  .video { width: 100%; }
+}
