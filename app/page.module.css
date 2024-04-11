@@ -47,6 +47,12 @@
   background-color: #fcb42d1e;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
 @media (max-width: 768px) {
   .banner__title {
     font-size: 16vw;

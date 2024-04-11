@@ -3,6 +3,7 @@ import Link from "next/link";
 
 // Sections of this page
 import Introduction from "./components/sections/Introduction";
+import ToursSection from "./components/sections/ToursSection";
 
 export default function Home() {
   return (
@@ -19,8 +20,9 @@ export default function Home() {
           </div>
         </div>
     </section>
-    <main>
+    <main className={styles.main}>
       <Introduction />
+      <ToursSection />
     </main>
     </>
   );
