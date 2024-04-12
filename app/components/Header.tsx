@@ -2,6 +2,7 @@
 
 import styles from "./css/Header.module.css";
 import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const [showNav, setShowNav] = useState<boolean>(false)
@@ -28,11 +29,13 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`container ${styles.header__items}`}>
-        <img
-          className={styles.logo}
-          src="./logo.png"
-          alt="Logo"
-        />
+        <Link href="#">
+          <img
+            className={styles.logo}
+            src="./logo.png"
+            alt="Logo"
+          />
+        </Link>
         <nav 
           className={`${styles.header__nav}${showNav ? " " + styles.header__nav_active : ""}`}
           ref={navRef}
@@ -40,41 +43,41 @@ export default function Header() {
           <button className={styles.header__btn} onClick={() => handleClick(false)}>
             <img className={styles.xicon} src="./x.svg" alt="x icon" />
           </button>
-          <a
+          <Link
             href="#"
             className={styles.nav__links}
             onClick={() => handleClick(false)}
           >
             Tours
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className={styles.nav__links}
             onClick={() => handleClick(false)}
           >
             Guides
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className={styles.nav__links}
             onClick={() => handleClick(false)}
           >
             Hotels
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className={styles.nav__links}
             onClick={() => handleClick(false)}
           >
             Gallery
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className={styles.nav__links}
             onClick={() => handleClick(false)}
           >
             Restaurants
-          </a>
+          </Link>
         </nav>
         <button 
           className={`${styles.header__btn} ${styles.header__btn_menu}`}
