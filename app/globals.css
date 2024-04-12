@@ -55,6 +55,7 @@ p {
 
 .children {
   min-height: 100vh;
+  padding-bottom: 10em;
 }
 
 @media (max-width: 768px) {
