@@ -28,7 +28,11 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`container ${styles.header__items}`}>
-        <span>LOGO</span>
+        <img
+          className={styles.logo}
+          src="./logo.png"
+          alt="Logo"
+        />
         <nav 
           className={`${styles.header__nav}${showNav ? " " + styles.header__nav_active : ""}`}
           ref={navRef}
