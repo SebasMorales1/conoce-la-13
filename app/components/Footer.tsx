@@ -29,9 +29,6 @@ export default function Footer() {
               <Link href="#" className={styles.footer__link}>Guides</Link>
             </li>
             <li>
-              <Link href="#" className={styles.footer__link}>Hotels</Link>
-            </li>
-            <li>
               <Link href="#" className={styles.footer__link}>Gallery</Link>
             </li>
             <li>

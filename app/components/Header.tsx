@@ -62,13 +62,6 @@ export default function Header() {
             className={styles.nav__links}
             onClick={() => handleClick(false)}
           >
-            Hotels
-          </Link>
-          <Link
-            href="#"
-            className={styles.nav__links}
-            onClick={() => handleClick(false)}
-          >
             Gallery
           </Link>
           <Link
