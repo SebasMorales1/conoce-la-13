@@ -1,0 +1,49 @@
+.guides {
+  background-color: var(--main-color);
+  padding: 1.5em 0;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.guides__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6em;
+}
+
+.guides__info { width: 40%; }
+
+.guides__title {
+  color: white;
+  font-size: 2.8em;
+  margin-bottom: 0.2em;
+}
+
+.guides__paragraph {
+  width: 90%;
+  color: white;
+  margin-bottom: 2em;
+}
+
+.guides__btn { border: 1px solid white; }
+
+.guides__btn:hover {
+  background-color: white;
+  color: var(--main-color);
+}
+
+@media (max-width: 940px) {
+  .guides__content {
+    flex-direction: column;
+    gap: 4em;
+  }
+
+  .guides__info { width: 90%; }
+}
+
+@media (max-width: 478px) {
+  .guides__paragraph { width: 100%; }
+  .guides__info { width: 100%; }
+}

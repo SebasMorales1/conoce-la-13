@@ -1,9 +1,10 @@
 import styles from "./page.module.css";
 import Link from "next/link";
+import Guides from "./components/sections/Guides";
 
 // Sections of this page
 import Introduction from "./components/sections/Introduction";
-import ToursSection from "./components/sections/ToursSection";
+import ToursSection from "./components/sections/Tours";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
     <main className={styles.main}>
       <Introduction />
       <ToursSection />
+      <Guides />
     </main>
     </>
   );
