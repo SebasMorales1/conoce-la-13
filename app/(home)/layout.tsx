@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import { Onest, Permanent_Marker } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./_components/Header";
+import Footer from "./_components/Footer";
 
 const onest = Onest({
   subsets: ["latin"],
   variable: "--font-onest"
 });
+
 const permanent_marker = Permanent_Marker({
   subsets: ["latin"],
   weight: ["400"],

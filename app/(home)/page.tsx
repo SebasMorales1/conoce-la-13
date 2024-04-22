@@ -1,11 +1,11 @@
 import styles from "./page.module.css";
 import Link from "next/link";
-import Guides from "./components/sections/Guides";
+import Guides from "./_components/sections/Guides";
 
 // Sections of this page
-import Introduction from "./components/sections/Introduction";
-import ToursSection from "./components/sections/Tours";
-import Restaurants from "./components/sections/Restaurants";
+import Introduction from "./_components/sections/Introduction";
+import ToursSection from "./_components/sections/Tours";
+import Restaurants from "./_components/sections/Restaurants";
 
 export default function Home() {
   return (
