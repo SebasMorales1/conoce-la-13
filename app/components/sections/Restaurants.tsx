@@ -8,7 +8,7 @@ export default function Restaurants() {
       <div className={styles.restaurants__info}>
         <h2 className={styles.restaurants__subtitle}>Restaurants</h2>
         <p className={styles.restaurants__paragraph}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio temporibus id a! Rem ad ab sapiente dolor illum. Excepturi est asperiores obcaecati tenetur cumque corporis a, deserunt unde facere doloremque.
+        Enjoy restaurants near the commune, restaurants with local, foreign and street food. American food, Argentinean food and many more.
         </p>
 
         <Link className="btn-global" href="#">
