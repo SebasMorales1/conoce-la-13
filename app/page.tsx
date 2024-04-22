@@ -5,6 +5,7 @@ import Guides from "./components/sections/Guides";
 // Sections of this page
 import Introduction from "./components/sections/Introduction";
 import ToursSection from "./components/sections/Tours";
+import Restaurants from "./components/sections/Restaurants";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Introduction />
       <ToursSection />
       <Guides />
+      <Restaurants />
     </main>
     </>
   );
