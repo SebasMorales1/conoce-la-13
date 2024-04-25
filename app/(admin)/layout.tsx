@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Onest } from "next/font/google";
 import "../globals.css";
+import "./_globals.css";
+
+import Nav from "./_partials/Nav";
+import Header from "./_partials/Header";
 
 const onest = Onest({
   subsets: ["latin"],
@@ -8,7 +12,7 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-  title: "Admin"
+  title: "Admin Dashboard"
 };
 
 export default function AdminLayout({
@@ -19,9 +23,15 @@ export default function AdminLayout({
   return (
     <html lang="en">
       <body className={onest.variable}>
-        <main>
-          {children}
-        </main>
+        <div className="container_content">
+          <Nav />
+          <div className="content">
+            <Header />
+            <main className="container">
+              {children}
+            </main>
+          </div>
+        </div>
       </body>
     </html>
   );

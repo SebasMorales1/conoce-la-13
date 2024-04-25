@@ -31,6 +31,8 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+  padding: 0.5em 1em;
 }
 
 .btn-global {
@@ -58,7 +60,7 @@ p {
   padding-bottom: 10em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 910px) {
   .container {
     width: 90%;
   }

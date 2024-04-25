@@ -1,0 +1,19 @@
+:root {
+  --nav-color: #151740;
+}
+
+.container {
+  width: 95%;
+}
+
+.container_content {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+h2 {
+  font-family: inherit;
+}
