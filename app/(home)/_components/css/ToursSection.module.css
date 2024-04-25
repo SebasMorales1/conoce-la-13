@@ -1,6 +1,6 @@
 .tours__content {
   display: grid;
-  grid-template-columns: 1.8fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 1em;
   align-items: center;
 }
